@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&display=swap');
+		@font-face{
+			font-family: "RetronomeRegular" ;
+			src: url('..fonts/1.ttf');
+			font-weight: normal;
+			font-style: normal;
+			}
+			body{
+				font-size: 32px;
+			    font-family: 'Lobster', cursive;
+			    background-color: #AD8B73;
+			}
+p{
+			color: #FFFBE9;
+			
+			}
+			h1{
+			font-family: 'Comfortaa', cursive;
+			color: #FFFBE9;
+			font-size: 60px;
+		}
+			span{
+				color:#FBFFE2;
+				background-color: #E3CAA5;;
+		}
+			span{font-family: "RetronomeRegular" ; }
+			div{
+				width: 80%
+				margin: auto;
+				background-color: #CEAB93;
+				padding: 50px
+			}
+		img{
+			max-width: 50%
+			height: auto;
+			display: block;
+		}
+		a{
+			text-decoration: none;
+			color: #FFEBCC
+			font-size: 100px;
+			display: block;
+			margin: 20px 0
+		}
+		a:hover{
+			text-decoration: underline;
+		font-size: 50px
+		}
+		ol{
+			list-style-type: thai;
+			color: #FFFBE9
+		}
