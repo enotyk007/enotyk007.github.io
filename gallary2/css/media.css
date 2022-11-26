@@ -1,0 +1,24 @@
+@media all and (max-width: 1024px){
+	.img-box{
+		width: 90%;
+		column-count:3;
+	}
+}
+@media all and (max-width: 768px){
+.img-box{
+		width: 100%;
+		column-count:2;
+	}
+}
+@media all and (max-width: 480px){
+.img-box{
+		width: 100%;
+		column-count:1;
+	}
+}
+@media all and (max-width: 1200px){
+	.img-wrapper:hover{
+	opacity: 1;
+	filter:drop-shadow(30px 10px 3px #444d);
+}
+}
