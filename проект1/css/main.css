@@ -2,23 +2,18 @@
 	font-family: 'FORTNITE BATTLEFEST', cursive;
 	src: url("..fonts/16847.ttf");
 }
-
-
 *{
 	margin: 0px;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 html, body, header{
 height: 100%;
 }
-
 html{
 	font-size: 12px;
 	font-family: 'FORTNITE BATTLEFEST', cursive;
 }
-
 .nav-wrapper{
 	/*position: absolute;*/
 	height: 55px;
@@ -30,7 +25,6 @@ html{
 	align-items: center;
 	justify-content: space-between;
 }
-
 .top-nav{
 	display:flex;
 	justify-content: space-between;
@@ -38,7 +32,6 @@ html{
 	align-items: center;
 	background-color:white;
 }
-
 .link{
 	text-decoration: none;
 	color: black;
@@ -46,18 +39,15 @@ html{
 	font-size: 1.8rem;
 	padding: 10px 5px;
 }
-
 .logo{
 	font-size: 1.8rem;
 	font-weight: bold;
 	text-align: center;
 	width: 150px;
 }
-
 .link+.link{
 	margin-left: 3%;
 }
-
 .search{
 	background-image: url(../img/search.png);
 	background-position: 0px center;
@@ -72,11 +62,9 @@ html{
 	padding-bottom: 3px;
 	transition: 0.3s ease-in;
 }
-
 .search:focus{
 	border-bottom: 1px solid;
 }
-
 .search-wrapper{
 	width: 12%;
 	margin-left: 5px;
